@@ -5,6 +5,7 @@
         <h3>Allow selection of single day</h3>
         <DatePicker
           :singleDaySelection="true"
+          :showClearButton="false"
           />
       </div>
       <div class="box">
@@ -72,7 +73,6 @@
               '2017-09-14',
               '2017-09-26',
           ]"
-          :showCloseButton="true"
           />
       </div>
 
